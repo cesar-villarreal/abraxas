@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '_6ak8fg=b@j_&g&tdzgir5*!!lnyxbe&g((03i3j#7q6makhvq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['astrobits.xyz']
 
 
 # Application definition
